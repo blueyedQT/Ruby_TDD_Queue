@@ -30,7 +30,7 @@ RSpec.describe Queue do
 			@queue.enqueue(3)
 		end
 		it "enqueues element to the end" do 
-			expect(@queue.queue_dispaly).to eq([1, 2, 3])
+			expect(@queue.queue_display).to eq([1, 2, 3])
 		end
 		describe "dequeue" do 
 			it "dequeues the first-in element" do 
